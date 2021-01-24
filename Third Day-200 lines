@@ -1,0 +1,217 @@
+<script>
+// Edit your script here
+
+function billelectricity(){
+SelectAccount=" 1-121-008-54"
+Billingdate="20/06/2012 "
+SubDivision=1
+RRNo=12100854 
+Name="XXXXX "
+Address="aab colony"
+Reading=42260 
+DueDate="21/06/2012 "
+unitsconsumed=1310
+Billamount=6498
+Paymentdate=" 30/06/2012 "
+if (Billamount==0){
+return "Error"
+}
+else
+{
+return Billamount
+}
+}
+let billamt=billelectricity()
+document.write(billamt)
+
+function billunits(MinimumUnits,unitsconsumed){
+if (unitsconsumed<10)
+{
+document.write("Unitsconsumed are less than the minimum decided:-Need to check")
+}
+}
+billunits(10,8)
+class bill{
+constructor(){
+this.SelectAccount=" 1-121-008-54"
+this.Billingdate="20/06/2012 "
+this.SubDivision=1
+this.RRNo=12100854 
+this.Name="XXXXX "
+this.Address="aab colony"
+this.Reading=42260 
+this.DueDate="21/06/2012 "
+this.unitsconsumed=1310
+this.Billamount=6498
+this.Paymentdate=" 30/06/2012 "
+}
+display()
+{
+document.write(this.Billamount,this.unitsconsumed)
+}
+}
+let billdetails=new bill()
+billdetails.display()
+function traveldetails(){
+	Transportdetails=" Tamilnadu  State Transport Corporation Limited "
+    BusDepoName ="Kanchipuram/01"
+    TicketNumber="00086655"
+    Datetime="06/11/2014  14:58:47"
+    From="Chennai"
+    To="pondichery "
+    Qty=2
+    cost=33.00
+    Total=33.00
+    Busno=" TN 01 N 2454 "
+if (cost>=200)
+{
+document.write("Traveller can avail for complimentary snacks upto rs30")
+}
+}
+
+traveldetails()
+
+function travellocation(from,to){
+
+if(from=="goa"){
+document.write("the starting destination is near pamla beach")
+}
+}
+travellocation("goa","mumbai")
+class travel{
+constructor(){
+    this.Transportdetails=" Tamilnadu  State Transport Corporation Limited "
+    this.BusDepoName ="Kanchipuram/01"
+    this.TicketNumber="00086655"
+    this.Datetime=" 06/11/2014  14:58:47 "
+    this.From="Chennai"
+    this.To="pondichery "
+    this.Qty=2
+    this.cost=33.00
+    this.Total=33.00
+    this.Busno=" TN 01 N 2454 "
+}
+displaycost(){
+document.write(this.cost,this.Busno)
+}
+}
+let bustravel=new travel()
+bustravel.displaycost()
+
+function vehicleregbook(){
+RegistrationNumber=" TN 22 CY 2917 "
+OwnersName="Sachin"
+SWD="Sirinivasan "
+PermanentAddress="x colony bengaluru"
+TemporaryAddress="y colony bengaluru"
+Dealer="Murugan Vehicles& Services Limited"
+ClassisNo=5793603
+EngineNo="0G3N72505757"
+ClassofVehicle="LMV (CAR) "
+makersName="Maruthi SuzUKI India LTD"
+NoofCylinder=3
+WeightKG=740
+wheelBase=2360
+SeatingCapacity=5
+Fuel="Petrol"
+Cubiccylinder=796
+if(Fuel=="CNG"){
+document.write("PUC needs to be checked for the vehicle")
+}
+}
+vehicleregbook()
+function vehicleinfo(ownername,chasisnumber){
+if(ownername=="prakash")
+{
+document.write("The owner belongs to the vehicle")
+}
+else
+{
+document.write("the owner does not belongs to that vehicle")
+}
+}
+vehicleinfo("prakash",14254177)
+class vehiclebook{
+constructor(){
+this.RegistrationNumber=" TN 22 CY 2917 "
+this.OwnersName="Sachin"
+this.SWDo="Sirinivasan "
+this.PermanentAddress="x colony bengaluru"
+this.TemporaryAddress="y colony bengaluru"
+this.Dealer="Murugan Vehicles& Services Limited"
+this.ClassisNo=5793603
+this.EngineNo="0G3N72505757"
+this.ClassofVehicle="LMV (CAR) "
+this.makersName="Maruthi SuzUKI India LTD"
+this.NoofCylinder=3
+this.WeightKG=740
+this.wheelBase=2360
+this.SeatingCapacity=5
+this.Fuel="Petrol"
+this.Cubiccylinder=796
+
+}
+dispregno(){
+document.write(this.RegistrationNumber)
+}
+
+}
+let register=new vehiclebook()
+register.dispregno()
+function licpolicy(){
+BranchCode=2012
+Date="07/11/2013-12:51"
+AddressofBranchoffice="ngnbchabmnxkjb"
+Totalcost=23234
+For="saravanan"
+PolicyNo=457677679
+Doc="02/04/2009"
+DueDate="04/13"
+Premiumamount=87888
+Latefee=989
+Loaninterest="Due 00/0000 to 00/0000 "
+Total=897999
+Nextdue=96699
+if(Nextdue=10000)
+{
+document.write("Cancel the customers policy as it is exceeded the limits")
+}
+}
+licpolicy()
+function licpolicyexpiry(expirydate)
+{
+document.write(expirydate)
+}
+licpolicyexpiry("12 august 2020")
+class licpolicydetails{
+constructor(){
+this.hCode=2012
+this.Date="07/11/2013-12:51"
+this.AddressofBranchoffice="ngnbchabmnxkjb"
+this.Totalcost=23234
+this.For="saravanan"
+this.PolicyNo=457677679
+this.Doc="02/04/2009"
+this.DueDate="04/13"
+this.Premiumamount=87888
+this.Latefee=989
+this.Loaninterest="Due 00/0000 to 00/0000 "
+this.Total=897999
+this.Nextdue=96699
+}
+displayinfo()
+{
+document.write(this.PolicyNo)
+}
+}
+let showinfo=new licpolicydetails()
+showinfo.displayinfo()
+
+
+
+
+
+
+
+</script>
+<!-- edit your html here -->
