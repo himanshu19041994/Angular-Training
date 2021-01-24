@@ -1,0 +1,169 @@
+<script>
+// Edit your script here
+var job="software"
+// object variable data
+//employee howru good
+//			whererufrom jaipur
+//			whichcollege RTU
+//			whenupassout  2016
+//			grades        8
+//			schoolname		stephens
+// 			hobby			Cricket
+// 			leisuretime		Reading
+//Below function is to display the information of an employee			
+function employee(){
+var howru="Good"
+var whererufrom="Jaipur"
+var whichCollege="RTU"
+var mobno=7827222212
+var qualification="Btech"
+var stream="ECE"
+var contactAddress="c colony jaipur"
+var landlineno=202101
+var nearestLandmark="Stonage suppliers"
+var email="xyz@gmail.com"
+var whenuPassout=2016
+var grades=8
+var schoolname="stephens"
+var hobby="Cricket"
+var skills="C C++ Data Structures Bash Scripting" 
+var leisureTime="Reading"
+var age=26
+var dateofBirth="19th APril 1994"
+var bloodGroup="O+"
+var maritalStatus="Unmarried"
+var fatherName="Ramesh"
+var fathersAge=50
+var fatherOccupation="GovtJob"
+var motherName="Saroj"
+var mothersAge=47
+var motherOccupation="Housewife"
+var aadharno=233472828299
+var totalExperience="3 Years"
+document.write(howru,whererufrom,whichCollege,whenuPassout)
+}
+employee()
+function updateEmployeeAddress(contactaddress,mobno,whererufrom)
+{
+document.write(contactaddress,mobno,whererufrom)
+}
+updateEmployeeAddress("x colony ajmer",7827222212,"Ajmer")
+function previousExperience(totalexperience)
+{
+	var previouscompany="ABC"
+    document.write(previouscompany,totalexperience)
+}
+previousExperience("5Years")
+function personalInfo(fathername,mothername)
+{
+	var totalSiblings=1
+	document.write(fathername,mothername,totalSiblings)
+}
+personalInfo("Ramesh","Saroj")
+function educationalDetails(whichcollege,whenupassout,grades)
+{
+	var secondarygrades=7
+    var seniorsecondarygrades=8
+  	document.write(whichcollege,whenupassout,grades,secondarygrades,seniorsecondarygrades)
+}
+educationalDetails("RTU",2016,8)
+function interests(hobby,leisuretime)
+{
+	document.write(hobby,leisuretime)
+}
+interests("Basketball","News")
+//Below function and class is to display the corporate information
+function corporate(){
+var companyName="JVT"
+var designation="Programmer "
+var salary="2.3 or 230000 " 
+var location="Bangalore "
+var name=" Jai Venkateswara Technologies "
+var qualification="B TECH MCA MBA BSC MSC  "
+var dob=" 2/6/1988"
+var address="233/3 Ground floor new thippasandra"
+var residence=8025216666
+var mobile=9900367097
+var email="venkatesh.db@gmail.com "
+var totalExp="1 years "
+var skills=" C,CPP all Lang  & 1 years "
+var reportingManager="Venkatesh"
+var pancard=27396248
+
+}
+corporate()
+function corporateAddress(colony,landmark,pin){
+document.write("<br>",colony,landmark,pin)
+}
+corporateAddress("x colony","near mall",305002)
+class corporateInfo{
+constructor(companyName,designation,salary,location,name,qualification,dob,address,residence,mobile,email,totalExp,skills,reportingManager,pancard){
+this.companyName=companyName
+this.designation=designation
+this.salary=salary 
+this.location=location
+this.name=name
+this.qualification=qualification
+this.dob=dob
+this.address=address
+this.residence=residence
+this.mobile=mobile
+this.email=email
+this.totalExp=totalExp
+this.skills=skills
+this.reportingManager=reportingManager
+this.pancard=pancard
+}
+display(){
+document.write(this.pancard)
+}
+}
+
+var show =new corporateInfo("JVT","Programmer","2.5lacs","Bangalore "," Jai Venkateswara Technologies"," B TECH MCA MBA BSC MSC","2/6/1988 "," 233/3 Ground floor new thippasandra"," 08025216666 ", " 9900367097 ","venkatesh.db@gmail.com "," 1 years"," C,CPP all Lang  & 1 years","  Venkatesh "," asu675901f ")
+show.display()
+function ticketDetails(){
+var ticketType="Special Entry Darshan "
+var date="Dec 1st"
+var day="Tuesday "
+var time=" 3:30 Am"
+var perSlotTickets=2000 
+var bookingNo="IS151110080016 "
+var name="venkatesh "
+var orderNo="010600013554 "
+var email=" venkateshprofessional7@gmail.com"
+var amountinFigures=" (Rs): 220.00 "
+var aadhaar="733498928758 "
+var date=" 11062015 11:36:46"
+}
+ticketDetails()
+function ticket(nameofTraveller){
+document.write(nameofTraveller)
+}
+ticket("akshay:")
+class ticketInfo{
+constructor(ticketType,datte,dayy,tiime,perSlotTickets,bookingNo,namme,orderNo,email,amountinFigures,aadhaar,date){
+this.ticketType=ticketType
+this.date=date
+this.dayy=dayy
+this.tiime=tiime
+this.perSlotTickets=perSlotTickets
+this.bookingNo=bookingNo
+this.namme=namme
+this.orderNo=orderNo
+this.emails=email
+this.amountinFigures=amountinFigures
+this.aadhaar=aadhaar
+this.datte=datte
+}
+whatisEmail(){
+document.write(this.emails)
+}
+}
+var showme =new ticketInfo("Special Entry Darshan"," Dec 1st"," Tuesday ","3:30 Am"," 2000 ","IS151110080016  "," venkatesh "," 010600013554 ","  venkateshprofessional7@gmail.com "," (Rs): 220.00"," 733498928758 ","11062015 11:36:46 ")
+showme.whatisEmail()
+
+
+
+
+</script>
+<!-- edit your html here -->
