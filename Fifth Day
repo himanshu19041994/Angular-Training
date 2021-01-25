@@ -1,0 +1,235 @@
+function cardetails(){
+city="Kolkata"
+fueltype="Petrol"
+kms=24253
+colour="Black"
+owners=4
+powersteering="YEs"
+insurance="ExpireD"
+manufacturingyear=2012
+dateofreg="12 august"
+for(i=0;i<10;i++){
+document.write(i,"<br>")
+}
+
+if (owners==4){
+return "Total 4 owners"
+}
+
+}
+let noofowners=cardetails()
+document.write(noofowners)
+
+function carcolour(colour){
+
+}
+carcolour("Black")
+
+function details(callback){
+
+callback("Diesel")    
+}
+details(typeoffuel)
+function typeoffuel(whattype){
+document.write("Its diesel")
+}
+typeoffuel()
+
+let arr1=new Map()
+arr1.set("c",2)
+document.write(arr1.get("c"))
+
+ARR=[12,31,14,14,45]
+document.write(ARR[1])
+class cardetails{
+    static type="SUV"
+    constructor(city,fueltype,kms,colour,owners,powersteering,insurance,manufacturingyear,dateofreg){
+        this.City=city
+        this.Fueltype=fueltype
+        this.Kms=kms
+        this.Colour=colour
+        this.Owners=owners
+        this.Powersteering=powersteering
+        this.Insurance=insurance
+        this.Manufacturingyear=manufacturingyear
+        this.Dateofreg=dateofreg
+
+}
+static details(){
+document.write(cardetails.type)
+}
+
+set display(colour){
+this.cOlour=colour
+}
+get colo(){
+return  this.colour
+
+}
+
+}
+let newobject=new cardetails("Jaipur","Petrol",24253,"Black",4,"YEs","ExpireD",2012,"12 august")
+cardetails.details()
+cardetails.display="Brown "
+let ret=cardetails.colo()
+let carinfo={
+    city:"Kolkata",
+    fueltype:"Petrol",
+    kms:24253,
+    colour:"Black",
+    owners:4,
+    powersteering:"YEs",
+    insurance:"ExpireD",
+    manufacturingyear:2012,
+    dateofreg:"12 august"
+}
+
+let arr=[1,2,3,4,5,6]
+arr.forEach(fun)
+let sum=0
+let item=6
+function fun(item){
+
+document.write("<br>",arr)
+
+
+}
+
+let newarray=[12,12,21,13,12,31,13]
+let coll=newarray.map(fun)
+let num=10
+function fun(num){
+document.write("<br>",newarray)
+}
+
+let login=prompt("Please enter the correct password")
+
+document.write(login)
+
+let login=prompt("Please enter the correct password")
+if(Number.isInteger(login)==0)
+{
+document.write("<br>","Entered value is an integer")
+}
+else{
+document.write("<br>","Entered value is not an integer")
+document.write(login,",<br>")
+}
+
+window.alert("It is not secured page")
+
+// Edit your script here
+var fruit="apple"
+
+// object variable data
+//mother emotion happiness
+//
+
+function Mother(){
+var emotion="happiness"
+var caring="always she want you to be happy"
+var money=5000
+var areyouinoffice="yes"
+var hadbreakfast="dosa"
+//document.write(emotion,caring,money,areyouinoffice,hadbreakfast)
+}
+Mother()				]
+
+function care(emotion,caring)
+{
+var salary="5.5 lakhs"
+document.writeIn(emotion,caring,salary)
+
+}
+care("joy","be happy")
+care("joy","not happy")
+
+let jobdescription={
+    skills:"C++,VC++",
+    interviewdate:"  6th Dec 2014  Saturday",
+    name:"asas",
+    mobno:7812261511,
+    alternatemobno:9362378323,
+    emailid:"adnnknak@gmail.com",
+    dob:"12 august 1992",
+    gender:"male",
+    maritalstatus:"Unmarried",
+    currentcompany:"x limited",
+    currentdesignation:"Engineer",
+    noticeperiod:"15 days",
+    currentctc:"3.5 lakhs",
+    expectedctc:"5 lakhs",
+    currentlocation:"Bangalore",
+      displayinfo(){
+    document.write(this.name,this.mobno,this.emailid)
+    }
+    }
+jobdescription.displayinfo()
+jobdescription.method=function(){
+document.write(this.skills,this.currentcompany,this.currentdesignation)
+}
+jobdescription.method()
+
+let cardetails={
+city:"Kolkata",
+FUELTYPE:"Petrol" ,
+KmsDriven:"29,479 KM",
+COLOUR:"Brown",
+NUMBEROFOWNERS:1,
+POWERSTEERING:"YEs",
+INSURANCETYPE:"Expired",
+INSURANCEEXPIRY:"N/A ",
+MANUFACTURINGYEAR:2012,
+DATEOFREGISTRATION:"5-May-2012",
+REGISTRATIONTYPE:"Individual",
+RTOLOCATIO:"eldata",
+engine:"1200 cc",
+onroadprice:"5 lakhs"
+
+}
+
+cardetails.price=function(){
+document.write(this.onroadprice)
+}
+cardetails.price()
+
+
+let traveldetails={
+
+amount:9000,
+adharcard:867889788987,
+date:"-01-2021",
+time:"4:00",
+nofpersons:2,
+nameof="archana",
+reportingtime:":00AM",
+privilege:"two laddus"
+}
+traveldetails.amount=function()
+{
+document.writeln(this.amount,this.date,this.time)
+}
+}
+traveldetails.amount()
+
+traveldetails.driverdetails(){
+this.lastname:"mams",
+this.firstname:"aaka",
+this.middelenmae:"shb",
+this.driverslicenseno="la292003902",
+this.driverslicensestate="karnataka",
+this.riverslicensecountry="india",
+this.civiliantype="indian",
+this.employeetype="softwareengineer",
+this.dob="19-02-1992",
+this.cityofbirth="Nagpur"
+
+
+}
+traveldetails.driverdetails()
+
+
+
+
+
+
