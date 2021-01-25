@@ -1,0 +1,131 @@
+function jobDetails(){
+var  description="This offshore position require sound knowledge in fundamentals of C++, VC++,C# and VBA scripting. "
+var  date=" 6th Dec 2014  Saturday"
+var  name="venk"
+var  mobno=7878788787
+var  email="mabn@gmail.com"
+var  dob="12 august 2000"
+var  gender="Male"
+var  maritalstatus="Unmarried"
+var  currentcmpny="JVT"
+var  designation="Programer"
+var  ctc="3 Lakhs"
+var  expectedctc="5Lakhs"
+if (expectedctc=="5lakhs"){
+    return "Eligible for job"
+}
+else{
+    return "Not eligible"
+}
+}
+var check=jobDetails()
+document.write(check)
+function jobDescription(description){
+document.write(description)
+}
+jobDescription("JAI Venkatesh Technologies")
+function jobaddress(){
+this.address="ad colonby bengaluru"
+this.landmark="Near mall"
+this.pin=300033
+return this.pin
+}
+var what=new jobaddress()
+document.write(what)
+class jobInfo{
+static currentcmpny="X technologies"
+constructor(name,mobno,email){
+this.Name=name
+this.Mobno=mobno
+this.Email=email
+}
+static showcurrentcompany(){
+document.write(jobInfo.currentcmpny)
+}
+
+}
+var show=new jobInfo("venka","7988888777","vd@gmail.com")
+jobInfo.showcurrentcompany
+let jobDetails={
+    description:"This offshore position require sound knowledge in fundamentals of C++, VC++,C# and VBA scripting. ",
+    date:" 6th Dec 2014  Saturday",
+    name:"venk",
+    mobno:7878788787,
+    email:"mabn@gmail.com",
+    dob:"12 august 2000",
+    gender:"Male",
+    maritalstatus:"Unmarried",
+    currentcmpny:"JVT",
+    designation:"Programer",
+    ctc:"3 Lakhs",
+    expectedctc:"5Lakhs"
+}
+
+jobDetails.show=function(){
+document.write(this.dob,this.email)
+}
+jobDetails.show()
+
+function internet(){
+var invoice=  7411172 
+var Period=" 01/11/2015-30/11/2015 "
+var ServiceType=" Internet Access "
+var Description="Monthly Subscription charges"
+var Package="ACT Blaze"
+var Rate="1,049.00 "
+var Unit=" Per Month  "
+var Quantity="30 Days "
+var Amount=1049
+var Tax="140.71 "
+var Total="1,189.71 "
+if (Amount==1049){
+return 0
+}
+}
+var ret=internet()
+document.write(ret)
+function internetservice(callback){
+
+callback("ven","c colony")    
+}
+internetservice(details)
+function details(name,address){
+document.write(name,address)
+
+}
+details()
+class internetservice{
+constructor(invoice,Period,ServiceType,Description,Package,Rate,Unit,Quantity,Amount,Tax,Total){
+    this.invoice= invoice 
+    this.Period=Period
+    this.ServiceType=ServiceType
+    this.Description=Description
+    this.Package = Package
+    this.Rate = Rate
+    this.Unit = Unit
+    this.Quantity = Quantity
+    this.Amount = Amount
+    this.Tax = Tax
+    this.Total = Total
+}
+}
+var object=new internetservice(25689," 01/11/2015-30/11/2015 "," Internet Access ","Monthly Subscription","ACT Blaze","1,049.00 "," Per Month  ","30 Days ",1049,"140.71 ","1,189.71 ")
+
+let  internetserviceprovider={
+    invoice:7411172, 
+    Period:" 01/11/2015-30/11/2015 ",
+    ServiceType:" Internet Access ",
+    Description:"Monthly Subscription charges",
+    Package:"ACT Blaze",
+    Rate:"1,049.00 ",
+    Unit:" Per Month  ",
+    Quantity:"30 Days ",
+    Amount:1049,
+    Tax:"140.71 ",
+    Total:"1,189.71 "
+}
+internetserviceprovider.method=function(){
+document.write(this.invoice)
+
+}
+internetserviceprovider.method()
