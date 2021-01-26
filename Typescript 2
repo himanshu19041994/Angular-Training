@@ -1,0 +1,155 @@
+function ticket(type:string,date:string,day:string,time:string,bookingno:string,name:string){
+console.log(type);
+console.log(date);
+console.log(day);
+console.log(time);
+console.log(bookingno);
+console.log(name);
+
+if (type!=undefined){
+
+    return "Valid  "
+
+}
+else {
+
+return "Invalid"
+}
+
+}
+let types=ticket(" Special Entry Darshan ","Dec 1st ","Tuesday","3:30 Am  "," IS151110080016","venkates");
+console.log("the type of ticket is :: "+types);
+
+let arr= new Array("ram","shyam","kalu","aalu","akshy");
+function tickettravellers(arr_names:string[]){
+
+console.log("Below are the details of travellers" );
+for(var i=0;i<arr_names.length;i++){
+    
+    console.log(arr_names[i]);
+}
+
+}
+tickettravellers(arr);
+
+let ticketinfo:any={
+type:"Special Entry Darshan",
+date:" Dec 1st ",
+day:"Tuesday ",
+time:"3:30 Am ",
+perslottickets:2000 ,
+bookingno:"IS151110080016",
+namess:"venkatesh",
+orderno:"010600013554 ",
+email:"venkateshprofessional7@gmail.com ",
+amount:2222,
+aadhar:454524842484,
+persons:8,
+reportingtime:"2:00AM",
+
+displaydetails:function():any{
+console.log(this.type);
+console.log(this.date);
+console.log(this.day);
+console.log(this.time);
+console.log(this.namess);
+console.log(this.email);
+
+}
+
+};
+
+ticketinfo.method=function(){
+
+console.log(this.day);
+console.log(this.date);
+console.log(this.time);
+console.log(this.email);
+
+}
+ticketinfo.method();
+ticketinfo.displaydetails();
+
+class ticketdet{
+Type:string;
+Date:string;
+Day:string;
+Time:string;
+static count:number=4;
+
+constructor(type:string,date:string,day:string,time:string){
+this.Type=type;
+this.Date=date;
+this.Day=day;
+this.Time=time;
+
+}
+
+dispinfo(){
+
+console.log(this.Type);
+console.log(this.Date);
+console.log(this.Day);
+console.log(this.Time);
+
+
+}
+
+static countof(){
+
+console.log(ticketdet.count);
+
+}
+
+}
+let tt=new ticketdet("special","22 august","Tuesday","3:00 PM");
+tt.dispinfo();
+ticketdet.countof();
+
+
+//Typescript 3
+
+function employee(salary:number){
+    
+    return salary;
+    }
+    var ret:number=employee(5000);
+    console.log(ret);
+    
+    function employeeName( name:string,city:string ){
+        console.log(name," ",city)
+    }
+    employeeName("akshay","bengaluru")
+    
+    class employees{
+        address:string;
+        constructor(getaddress:string){
+    this.address=getaddress;
+    }
+    displayaddress(){
+        console.log(this.address);
+    }
+    }
+    let pass=new employees("xy colony");
+    pass.displayaddress();
+    
+    function studentMarks()
+    {
+    var maths:number=7
+    var science:number=8
+    var hindi:number=7
+    var sanskrit:number=9
+    var computer:number=7
+    var social:number=9
+    var sum:number=maths+hindi+science+sanskrit+computer+social
+    return sum;
+    }
+    let total:number=studentMarks();
+    console.log(total);
+    
+    function studentRank(name1:string,name2:string,name3:string)
+    {
+        console.log(name1,name2,name3);
+    }
+    studentRank("1stronak","2ndkush","3rdyash")
+    
