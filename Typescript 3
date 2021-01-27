@@ -1,0 +1,247 @@
+function employee(salary:number){
+    
+    return salary;
+    }
+    var ret:number=employee(5000);
+    console.log(ret);
+    
+    function employeeName( name:string,city:string ){
+        console.log(name," ",city)
+    }
+    employeeName("akshay","bengaluru")
+    
+    class employees{
+        address:string;
+        constructor(getaddress:string){
+    this.address=getaddress;
+    }
+    displayaddress(){
+        console.log(this.address);
+    }
+    }
+    let pass=new employees("xy colony");
+    pass.displayaddress();
+    
+    function studentMarks()
+    {
+    var maths:number=7
+    var science:number=8
+    var hindi:number=7
+    var sanskrit:number=9
+    var computer:number=7
+    var social:number=9
+    var sum:number=maths+hindi+science+sanskrit+computer+social
+    return sum;
+    }
+    let total:number=studentMarks();
+    console.log(total);
+    
+    function studentRank(name1:string,name2:string,name3:string)
+    {
+        console.log(name1,name2,name3);
+    }
+    studentRank("1stronak","2ndkush","3rdyash")
+    
+
+//Typescript3
+
+
+    class studentDetails{
+        names:string;
+        fathernames:string;
+        mothernames:string;
+        dobs:string;
+        addresss:string;
+        ages:number;
+        sections:string;
+        
+    constructor(name:string,fathername:string,mothername:string,dob:string,address:string,age:number,section:string){
+    this.names=name;
+    this.fathernames=fathername;
+    this.mothernames=mothername;
+    this.dobs=dob;
+    this.addresss=address;
+    this.ages=age;
+    this.sections=section;
+    }
+    basicinfo()
+    {
+   console.log(this.names," ",this.ages," ",this.sections);
+    }
+    static marks()
+    {
+    var sciencemarks:number=9;
+    console.log(sciencemarks);
+    }
+    }
+    let detail=new studentDetails("aks","RKS","saka","9-01-1999","ad colony",20,"A")
+    detail.basicinfo()
+    studentDetails.marks()
+    
+    function corporateinformation()
+    {
+    var companyname:string="JVT"
+    var designation:string="Programmer"
+    var salary:string="25000000"
+    var location:string="Banglore"
+    return designation
+    }
+    let rets:string=corporateinformation();
+    console.log(ret);
+    
+    function infocorporate(name:string,location:string,area:string)
+    {
+    console.log(name,location,area,);
+    }
+    infocorporate("asas","bengal","BTMlayout"); 
+    
+    
+    function travel(){
+    var ticketype:string="special entry  dasrhan"
+    var date:string="1st sep"
+    var day:string="Tuesday"
+    var time:string="3:30PM"
+    var perslotticket:number=2000
+    return date
+    }
+    var whatsdate:string=travel()
+    console.log(whatsdate);
+    
+    function yatri(name:string,orderno:number,email:string)
+    {
+    console.log(name,orderno,email);
+    }
+    yatri("venkatesh",5865,"gahh@gmail.com");
+   
+    
+    function drivinglicense(){
+    var lastname="amams"
+    var firstname="kaaka"
+    var middelenmae="mnshb"
+    var driverslicenseno="la292003902"
+    var driverslicensestate="karnataka"
+    var driverslicensecountry="india"
+    var civiliantype="indian"
+    var employeetype="softwareengineer"
+    var dob="19-02-1992"
+    var cityofbirth="Nagpur"
+    
+    return driverslicenseno;
+    }
+    
+    var no:string=drivinglicense()
+   console.log("The license no.is:- "+no);
+    
+    function appearanceinformation(colour:string)
+    {
+        var weight=55
+        var height=5.8
+        var eyecolour="brown"
+        var gender="Male"
+        var homeaddress="kadapaa, 983";
+        var homephone=787987879
+        var mobile=698798768
+        var state="andhra pradesh"
+        var country="india"
+        console.log(country,state,mobile,gender,height,colour);
+    
+    }
+    appearanceinformation("white")
+    
+    function systemproperties()
+    {
+    
+    var rating=4.5
+    var processor="intel i5"
+    var ram="4GB"
+    var systemtyme="64 bit operating system"
+    var penandtouch="No Pen or Touch Input is available for this Display "
+    var computername="BALU-PC "
+    var computerdescription="WORKGROUP"
+    var windowsedition="windows 7 ultimate"
+    var productid=": 00426-OEM-8992662-00497"
+    return processor
+    }
+    let pc:string=systemproperties()
+    
+    console.log(pc)
+    
+    
+    
+    function electricbill(){
+    
+    var website="www.tnebnet.org "
+    var businessname="agilan"
+    var password=1214252
+    var consumernumber=2332534
+    var billingstatus="paid"
+    var modeofpayment="netbanking"
+    var choosebank="sbi"
+    var username="kumar2007"
+    var password=1233617
+    var transactionname="1u1onbjansa"
+    var paymentstatus="successful"
+    
+    console.log(consumernumber,paymentstatus)
+    
+    return billingstatus
+    }
+    let stat:string=electricbill();
+    
+    console.log(stat);
+    
+    function tvspecification(){
+    
+    var model="aandbvnma"
+    var ledlighting="Backlight"
+    var size="55 inches"
+    var typof240="scanning backlight"
+    var iswirelesshdmi="yes"
+    var usb="USB 2.0"
+    var videoservice="youtube"
+    var price="Rs 55000"
+    return price 
+    }
+    var tvprice:string=tvspecification();
+    console.log(tvprice);
+    
+    function tvappearance(colour:string,type:string,isinternetsupported:string){
+    console.log(colour,type,isinternetsupported)
+    
+    }
+    tvappearance("Black","amoledled","internettv")
+    
+    
+    function library(){
+    var bookid="1121424"
+    var bookname="C programming"
+    var bookauthor="dennis ritchie"
+    var issuedate="14/10/2011"
+    var duedate="14/11/2011"
+    var idno="210291sas"
+    var name="sasasa"
+    var returnon="25/12/2011"
+    var fine="rs200"
+    var pages=400
+    var category="novel"
+    
+    return fine;
+    }
+    var whatfine:string=library()
+    console.log(whatfine)
+    
+    function onlineshippingaddress(name:string,pincode:number,city:string){
+    var address="a colony bikaner"
+    var landmark="near sharma coaching classes"
+    var state="rajasthan"
+    var country="India"
+    var phone=2029181
+    console.log(name,pincode,city)
+    
+    }
+    onlineshippingaddress("laxman",302001,"bikaner")
+    
+   
+
+
+
