@@ -1,0 +1,211 @@
+
+
+function appearance(weight:string,height:string,gender:string,address:string,no:number,state:string,country:string){
+console.log("Below are details of the person");
+console.log(weight);
+console.log(height);
+console.log(gender);
+console.log(address);
+console.log(no);
+console.log(state);
+console.log(country);
+}
+appearance("75 kg","5.7 ","Male","a colony ",7878788877,"Rajasthan","India")
+
+function appearancedet(native:string){
+
+return native;
+}
+let get=appearancedet("native :delhi");
+console.log(get);
+
+let appearanceobject:any={
+
+name:"asass",
+weight:"75 kg",
+gender:"Male",
+height:"6.1",
+state:"Delhi",
+bloodgroup:"o+",
+bmi:20,
+eyescolour:"Black",
+identifi:"mole",
+country:"India",
+
+
+};
+
+appearanceobject.details=function():any{
+
+console.log(this.name)
+console.log(this.weight)
+console.log(this.height)
+console.log(this.gender)
+console.log(this.state)
+console.log(this.country)
+}
+appearanceobject.details();
+
+
+class appance{
+Name:string;
+Weight:string;
+
+constructor(name:string,weight:string){
+this.Name=name;
+this.Weight=weight;
+}
+
+showinfo(){
+
+console.log(this.Name);
+console.log(this.Weight);
+
+}
+
+}
+let det=new appance("aaa","75 kg");
+det.showinfo();
+
+function emi(type:string,amount:number,rate:string,time:string,value:number){
+console.log("Below are the details of emi");
+console.log(type);
+console.log(amount);
+console.log(rate);
+console.log(time);
+console.log(value);
+
+
+}
+emi("Personal",100000,"10 %","2Years",10000)     
+
+function emirate(rate:number){
+
+return rate;
+
+}
+
+let rt=emirate(11)
+console.log("The current emi rate is "+rt);
+
+let ar=new Array("Ram","shyam");
+function emipersons(persons:string[])
+{
+console.log("Below are the details of emi persons")
+for(var i=0;i<names.length;i++){
+    console.log(names[i]);
+}
+
+}
+emipersons(ar)
+
+let emidetails:any={
+
+type:"Personal",
+amount:200000,
+rate:"10 %",
+time:" 2 years",
+value:1000000,
+
+showamt:function(){
+console.log(this.amount);
+}
+
+
+};
+
+
+emidetails.showdetails=function():any{
+console.log(this.type);
+console.log(this.amount);
+console.log(this.rate);
+console.log(this.time);
+
+
+
+}
+emidetails.showdetails();
+emidetails.showamt();
+
+
+class Emi{
+Type:string;
+Rate:string;
+constructor(type:string,rate:string){
+
+this.Type=type;
+this.Rate=rate;
+
+}
+
+display(){
+    console.log(this.Type);
+    console.log(this.Rate);
+}
+
+
+}
+
+let how=new Emi("Personal","10 %")
+how.display();
+
+
+class onlineshopping
+{
+    username :string;
+   password :string;
+   emailid :string;
+   mobilenumber :number;
+   location :string;
+   static loginname :string;
+   static loginpwd :string;
+   static productbrand :string;
+   static  estimatedarrival :string;
+   static productcolor :string;
+   static returnpolicy :string;
+   static fabric :string;
+   static occassion :string
+   static size :string;
+   static gender :string;
+  constructor(uname :string,pwd :string,mail :string,mobilenum :number,location :string)   //signup purpose
+  {
+    this.username = uname;
+    this.password = pwd;
+    this.emailid = mail;
+    this.mobilenumber = mobilenum;
+    this.location = location;
+  }
+  logincredentialscheck(logname :string,logpwd :string) :number
+  {
+    onlineshopping.loginname = logname;
+    onlineshopping.loginpwd = logpwd;
+    if( onlineshopping.loginname == this.username &&  onlineshopping.loginpwd ==  this.password)
+    {
+      return 1;
+    }
+    else
+    {
+      return 0;
+    }
+  }
+ static productdetails(brand :string,color :string,material :string,occassion :string,size :string,gender :string)
+  { onlineshopping.productbrand = brand;
+    onlineshopping.productcolor = color;
+    onlineshopping.fabric = material;
+    onlineshopping.occassion = occassion;
+    onlineshopping.size = size;
+    onlineshopping.gender = gender;
+    console.log("Product details saved successfully");   
+  }
+  static shippingdetails(arrival :string,repolicy :string)
+  {
+      onlineshopping.estimatedarrival = arrival;
+      onlineshopping.returnpolicy = repolicy;
+     console.log("Shipping details saved successfully");
+  }
+}
+let akshay = new onlineshopping("Akk","saa@123","sya@gmail.com",9824367268,"Bangalore");
+onlineshopping.shippingdetails("Monday","Not retyrnable");
+onlineshopping.productdetails("Puma","Black","fabric","Party","S","Male");
+akshay.logincredentialscheck("asas","asasad");
+
