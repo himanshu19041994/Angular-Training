@@ -1,0 +1,223 @@
+function electricitybill(userid:number,areacode:number,address:string)
+{
+    //console.log
+    console.log(userid);
+    console.log(areacode);
+    console.log(address);
+    return userid;
+
+}
+let uid:number=electricitybill(122,2222,"a colony");
+console.log("User id is" +uid);
+function electricitybillunits(units:string){
+    console.log(units)
+    
+    }
+    electricitybillunits("2000 unkits")
+
+let ebill:any={
+
+username:12211,
+password:121212,
+modeofpayment:"online",
+bank:"SBI",
+consumername:"Akk",
+unitsconsumed:24,
+previousdue:"no due",
+lastdate:"12 aug",
+lastdatewithfine:"14 aug",
+areacode:1212,
+metod:function(){
+
+console.log(this.unitsconsumed)
+
+}
+};
+
+ebill.showcname=function():any{
+
+console.log(this.consumername)
+}
+
+function billingaddress(name:string,address:string,pin:number)
+{
+console.log(name)
+console.log(address)
+console.log(pin)
+}
+
+billingaddress("ram","as colony",3561212)
+
+
+class electricbills{
+Uname:string;
+Cname:string;
+Address:string;
+Pin:number;
+
+constructor(uname:string,cname:string,address:string,pin:number){
+this.Uname=uname;
+this.Cname=cname;
+this.Address=address;
+this.Pin=pin;
+}
+
+disp(){
+console.log(this.Uname);
+console.log(this.Cname);
+console.log(this.Address);
+console.log(this.Pin);
+
+
+}
+
+
+}
+let bill=new electricbills("1212!!","akash","v colony",323232);
+bill.disp();
+
+function mail(sender:string,sendermail:string,reciever:string,recievermail:string,day:string,date:string){
+console.log("Below are the details of mail");
+
+console.log("The senders name is "+sender);
+console.log("senders id is "+sendermail);
+console.log(reciever);
+console.log(recievermail);
+console.log(day);
+console.log(date);
+
+}
+mail("Ram","ram@gmail","Shyam","Shyam@gmail","Tueday","12 aug")
+
+function mailcheck(smail:string,rmail:string)
+{
+
+if (smail==undefined)
+{
+    return "Senders mail not valid"
+}
+else
+{
+    return "senders mail is valid"
+}
+
+
+}
+let check:string=mailcheck("A @gmail","B@ gmail");
+console.log(check);
+
+
+let mails:any={
+
+sname:"assass",
+rname:"aaaa",
+smail:"aaa.com",
+rmail:"aaaa.com",
+day:"Tuesday",
+date:"1 jan",
+ip="112122121",
+showip:function(){
+
+console.log(this.ip);
+
+}
+
+};
+
+mails.meth=function():any{
+
+console.log(this.sname);
+}
+mails.meth();
+mails.showip();
+
+class mailinfo{
+Sname:string;
+Rname:string;
+
+constructor(sndrname:string,rcvrname:string){
+this.Sname=sndrname;
+this.Rname=rcvrname;
+}
+
+shownames(){
+console.log(this.Sname);
+console.log(this.Rname);
+
+}
+
+
+
+}
+let what=new mailinfo("ram","Shyam")
+what.shownames();
+
+function theatre(name:string,screen:number,movname:string,clas:string,ticket:number,seat:string,amount:number){
+
+console.log("Details of tickets in PVR")
+console.log(name)
+console.log(screen)
+console.log(movname)
+console.log(clas)
+console.log(ticket)
+console.log(seat)
+console.log(amount)
+}
+theatre("PVR",1,"sholay","Premium",12,"1 to 12", 250  )
+
+function theatreamt(totalamount:number){
+
+return totalamount
+}
+
+let am=theatreamt(2000);
+console.log("The total amount of tickets is "+am);
+
+let theatrein:any={
+    TheatreName:"PVR",
+    Screen:2,
+    MovieName :"sholay",
+    clas :"prem",
+    PricePerTicket:250,
+    NumberOfTkt :10,
+    SeatNumbers :"25 to 35",
+    
+    totalamt:function(){
+        console.log("The total amount is "+this.PricePerTicket*this.NumberOfTkt);
+
+    }
+
+  };
+
+theatrein.methods=function():any{
+
+console.log(this.TheatreName);
+console.log(this.Screen);
+console.log(this.MovieName);
+console.log(this.clas);
+console.log(this.SeatNumbers);
+
+}
+theatrein.methods();
+theatrein.totalamt();
+
+
+
+class theatreinfo {
+   Tname:string;
+   Mname:string;
+    constructor(tname:string,movname:string) {
+    this.Tname=tname;
+    this.Mname=movname;
+    }
+
+    displayin(){
+        console.log(this.Tname);
+        console.log(this.Mname);
+    }
+
+
+}
+
+let showme=new theatreinfo("Plaza","Sholay")
+showme.displayin();
