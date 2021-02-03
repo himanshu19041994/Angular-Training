@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>WEBPAGE</title>
+
+<style>
+    .top{
+        
+        overflow: hidden;
+        background-color: red;
+    }
+   
+    .top a{
+        float: left;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              
+
+            }
+      .top a:hover{
+        background-color: whitesmoke;
+        color:gold;
+
+      }
+      #name{
+            border: solid 2px ;color: darkblue;
+            border-width: 10px;
+            font-size: 50px;
+          margin-top: 90px;
+          margin-right: 1130px;
+          background-color: blueviolet;     
+          height: 50px;
+          width: 50px;
+            display:table-row;
+      }      
+      #edit{
+            float: left;    
+            margin-top: 100px;
+            border: orangered;
+            border-style: solid;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 20px;
+            background-color: palevioletred;
+            margin-right: 600px;
+            overflow: hidden;
+      }
+      #button{
+                margin-top: 20px;
+
+
+      }
+      #submit{
+          margin-top: 20px;
+      }
+      #reset{
+          margin-top: 20px;
+      }
+      #image{
+          border: solid 1px chocolate;
+          border-radius: 20px;
+
+        margin-left: 0px;
+        margin-top: -10px;
+          height: 1150px;
+          width: 1250px;
+          opacity: 0.4;
+      }
+
+</style>
+<script>
+    function Alert(){
+
+        Myalert=alert("Your credentials are saved");
+              document.getelementbyid.innerHTML=Myalert;
+    }
+</script>
+
+
+</head>
+
+<body>
+   
+<div class="top">
+<a href="https://www.intimetec.com/" ;onclick="href"> Home</a>
+<a href="https://www.intimetec.com/" ;onclick="href"> Login</a>
+<a href="https://www.intimetec.com/" ;onclick="href"> Services</a>
+<a href="https://www.intimetec.com/"; onclick="href">  AboutUs</a>
+
+</div>
+<a href="">
+    <img id="image" src="download.png" width="100%" height="700px" alt="back">   </a>
+<p>
+
+</p>    
+
+    <p id="name">
+        My name is Himanshu Dadhich
+    </p>
+    <div id="edit">
+  <form >
+    <label >Name</label>
+    <input type="text"; placeholder="Enter your name">
+    <label >Email</label>
+    <input type="email";  placeholder="Enter your email ">
+    
+    <br>
+    <button id="button" onclick="Alert()"> Login </button>
+    <button id="Submit">Submit</button>
+    <input type="submit">
+    <button id="Reset"> Reset</button>
+    <input type="reset">
+    
+</form>
+</div><br>
+<p>
+
+</p>
+</body>
+
+</html>
