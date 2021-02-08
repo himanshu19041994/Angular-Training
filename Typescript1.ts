@@ -1,5 +1,3 @@
-
-
 // Below functions and class are of corporate
 function corporate(companyname:string,designation:string,salary:number,location:string){
 console.log(companyname," ",designation," ",salary," ",location);
